@@ -1,0 +1,57 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000080;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #f0f0f0;
+    color: #000080;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #000080;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
