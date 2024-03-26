@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+#barra-nav {
+    color: #f0f0f0;
+    background-color: #000080;
+    max-width: 1600px;
+    width: 100%
+}
+
 body {
     color: #000080;
     font-family: Arial, sans-serif;
@@ -14,10 +21,10 @@ body {
 
 #botao-inverter-cores {
     position: absolute;
-    top: 0px; /* Ajuste conforme necessário para a distância do topo */
-    right: 0px; /* Ajuste conforme necessário para a distância da direita */
+    top: 0px; /* Ajuste da distância do topo */
+    right: 0px; /* Ajuste da distância da direita */
     z-index: 999; /* Garante que o botão tenha prioridade visual */
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: #000080;
     color: #f0f0f0;
     border: none;
@@ -29,15 +36,18 @@ header {
     background-color: #f0f0f0;
     color: #000080;
     padding: 20px;
-    text-align: center;    
+    text-align: center;
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 50px;
+    color: #000080;
 }
 
 header nav ul {
     list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
 }
 
 header nav ul li {
@@ -46,14 +56,22 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #000080;
     text-decoration: none;
+    color: #f0f0f0;
+    
 }
 main {
     padding: 20px;
     margin-left: 50px;
     margin-right: 200px;
     text-align: justify;
+    color:#000080;
+}
+
+nav {
+
+    color: #f0f0f0;
+    background-color: #000080;
 }
 
 section {
@@ -68,7 +86,7 @@ h1 {
 h2 {
     font-size: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 h3 {
@@ -81,4 +99,12 @@ footer {
     color: #f0f0f0;
     padding: 20px;
     text-align: center;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+p {
+    margin-left: 20px;
 }
