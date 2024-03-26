@@ -42,3 +42,14 @@ function inverterCores() {
 // Adiciona um evento de clique ao botão
 const botaoInverterCores = document.getElementById('botao-inverter-cores');
 botaoInverterCores.addEventListener('click', inverterCores);
+
+window.addEventListener('scroll', function() {
+    var header = document.getElementById('header');
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > 100) { // Ajuste o valor conforme necessário
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});

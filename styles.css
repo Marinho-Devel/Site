@@ -5,11 +5,17 @@
     box-sizing: border-box;
 }
 
-#barra-nav {
+.barra-nav{
     color: #f0f0f0;
     background-color: #000080;
-    max-width: 1600px;
-    width: 100%
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    transition: background-color 0.3s ease;
+    background-color: #000080;
+    
 }
 
 body {
@@ -17,6 +23,11 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     background-color: #f0f0f0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
 }
 
 #botao-inverter-cores {
@@ -28,15 +39,25 @@ body {
     background-color: #000080;
     color: #f0f0f0;
     border: none;
-    border-radius: 0 0 5px 5px;
+    /*border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;*/
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 40%); /* Cria o chanfro */
     cursor: pointer;
+    transition: border 0.3s ease; /* Adiciona uma transição suave */
+
+}
+
+
+#botao-inverter-cores:hover{
+    border: 3px solid #000080;
+
 }
 
 header {
     background-color: #f0f0f0;
     color: #000080;
-    padding: 20px;
     text-align: center;
+    
 }
 
 header h1 {
