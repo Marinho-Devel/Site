@@ -10,10 +10,21 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     background-color: #f0f0f0;
-    margin-left: 50px;
-    margin right: 300px;
 }
-   
+
+#botao-inverter-cores {
+    position: absolute;
+    top: 0px; /* Ajuste conforme necessário para a distância do topo */
+    right: 0px; /* Ajuste conforme necessário para a distância da direita */
+    z-index: 999; /* Garante que o botão tenha prioridade visual */
+    padding: 10px 20px;
+    background-color: #000080;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+}
+
 header {
     background-color: #f0f0f0;
     color: #000080;
@@ -40,6 +51,9 @@ header nav ul li a {
 }
 main {
     padding: 20px;
+    margin-left: 50px;
+    margin-right: 200px;
+    text-align: justify;
 }
 
 section {
