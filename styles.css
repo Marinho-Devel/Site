@@ -19,7 +19,7 @@ body {
     z-index: 999; /* Garante que o botão tenha prioridade visual */
     padding: 10px 20px;
     background-color: #000080;
-    color: #fff;
+    color: #f0f0f0;
     border: none;
     border-radius: 0 0 5px 5px;
     cursor: pointer;
