@@ -9,6 +9,7 @@
     text-align: right;
     float: right;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .barra-ico:hover {
