@@ -5,18 +5,27 @@
     box-sizing: border-box;
 }
 
+.barra-ico {
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+}
+
+.barra-ico:hover {
+    cursor: pointer;
+}
+
 .barra-nav{
+    
+    position: fixed;
     color: #f0f0f0;
-    background-color: #003366;
     max-width: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
     top: 0px;
-    position: absolute;
-    transition: background-color 0.3s ease;
     background-color: #003366;
-    
+    z-index: 999;
 }
 
 body {
@@ -26,12 +35,12 @@ body {
     width: 100%;
     max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0px;
     
 }
 
 #botao-inverter-cores {
-    position: absolute;
+    position: top;
     top: 0px; /* Ajuste da distância do topo */
     right: 0px; /* Ajuste da distância da direita */
     z-index: 999; /* Garante que o botão tenha prioridade visual */
@@ -55,13 +64,16 @@ body {
 }
 
 .botao-nav {
+
     border: 3px solid #003366;
     transition: border 0.3s ease-in;
-    padding: 10px 25px;
+    padding: 10px 20px;
     background-color: #003366;
     color: #f0f0f0;
     text-decoration: none;
     outline: none;
+    cursor: pointer;
+    text-align: left;
 
 }
 
@@ -82,17 +94,20 @@ body {
 
 
 .footer {
+    margin-top: 400px;
+    left: 0;
+    right: 0;
+    z-index: 999;
     background-color: #003366;
     color: #f0f0f0;
     padding: 20px;
     text-align: center;
-
 }
+
 
 header {
     background-color: #003366;
     color: #f0f0f0;
-    text-align: center;
     margin-top: 60px;
     outline: none
 }
@@ -127,17 +142,19 @@ header nav ul li a {
 }
 
 main {
-    padding: 20px;
     margin-left: 50px;
     margin-right: 200px;
+    margin-top: 30px;
     text-align: justify;
     color:#f0f0f0;
     background-color: #333;
+    padding: button;
 }
 
 .name {
     padding: 0px;
     z-index: 999;
+    text-align: center;
 }
 
 nav {
@@ -147,7 +164,7 @@ nav {
 }
 
 h1 {
-    margin-top: 5px;
+    margin-top: 7px;
     margin-bottom: 20px;
 }
 
@@ -168,8 +185,11 @@ p {
 
 section {
     margin-bottom: 20px;
+    border-right: #f0f0f0;
+    border-bottom: #f0f0f0;
 }
 
 .subtitle {
     padding-bottom: 20px;
+    text-align: center;
 }
