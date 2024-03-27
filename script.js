@@ -44,7 +44,7 @@ const botaoInverterCores = document.getElementById('botao-inverter-cores');
 botaoInverterCores.addEventListener('click', inverterCores);
 
 window.addEventListener('scroll', function() {
-    var header = document.getElementById('header');
+    var header = document.getElementById('barra-nav');
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > 100) { // Ajuste o valor conforme necessário
